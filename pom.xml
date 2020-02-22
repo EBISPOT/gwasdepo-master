@@ -38,7 +38,7 @@
         <junit>4.12</junit>
         <mockito.core>2.18.3</mockito.core>
         <equals-verifier>2.4</equals-verifier>
-        <jackson.databind>2.9.9</jackson.databind>
+        <jackson.databind>2.9.10.1</jackson.databind>
         <javax.servlet>4.0.1</javax.servlet>
         <javax.validation>2.0.1.Final</javax.validation>
         <apache.poi>4.1.0</apache.poi>
