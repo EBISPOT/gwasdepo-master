@@ -37,7 +37,7 @@
         <apache.fluent-hc>4.5.5</apache.fluent-hc>
         <junit>4.12</junit>
         <mockito.core>2.18.3</mockito.core>
-        <equals-verifier>2.4</equals-verifier>
+        <equals-verifier>3.1.13</equals-verifier>
         <jackson.databind>2.9.9</jackson.databind>
         <javax.servlet>4.0.1</javax.servlet>
         <javax.validation>2.0.1.Final</javax.validation>
