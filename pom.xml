@@ -35,7 +35,7 @@
         <commons.io>2.4</commons.io>
         <apache.http-client>4.5.5</apache.http-client>
         <apache.fluent-hc>4.5.5</apache.fluent-hc>
-        <junit>4.12</junit>
+        <junit>4.13.1</junit>
         <mockito.core>2.18.3</mockito.core>
         <equals-verifier>2.4</equals-verifier>
         <jackson.databind>2.9.9</jackson.databind>
