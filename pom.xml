@@ -6,7 +6,7 @@
 
     <groupId>uk.ac.ebi.spot.gwasdepo</groupId>
     <artifactId>gwasdepo-master</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
 
     <name>GWAS Deposition App Master POM</name>
