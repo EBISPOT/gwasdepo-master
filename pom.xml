@@ -6,7 +6,7 @@
 
     <groupId>uk.ac.ebi.spot.gwasdepo</groupId>
     <artifactId>gwasdepo-master</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
 
     <name>GWAS Deposition App Master POM</name>
@@ -37,12 +37,12 @@
         <apache.fluent-hc>4.5.5</apache.fluent-hc>
         <junit>4.12</junit>
         <mockito.core>2.18.3</mockito.core>
-        <equals-verifier>2.4</equals-verifier>
+        <equals-verifier>3.1.13</equals-verifier>
         <jackson.databind>2.9.9</jackson.databind>
         <javax.servlet>4.0.1</javax.servlet>
         <javax.validation>2.0.1.Final</javax.validation>
         <apache.poi>4.1.0</apache.poi>
-        <ognl.version>3.2.10</ognl.version>
+        <ognl.version>3.2.14</ognl.version>
         <jjwt.version>0.9.0</jjwt.version>
         <quartz.mongo.version>2.1.0</quartz.mongo.version>
         <quartz.version>2.3.0</quartz.version>
