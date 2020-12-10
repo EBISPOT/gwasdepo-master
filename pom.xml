@@ -6,7 +6,7 @@
 
     <groupId>uk.ac.ebi.spot.gwasdepo</groupId>
     <artifactId>gwasdepo-master</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3</version>
     <packaging>pom</packaging>
 
     <name>GWAS Deposition App Master POM</name>
@@ -70,17 +70,13 @@
 
     <repositories>
         <repository>
-            <id>spring-release-public</id>
-            <name>Spring Public Release Repository</name>
-            <url>https://repo.spring.io/plugins-release/</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
             <snapshots>
-                <enabled>true</enabled>
+                <enabled>false</enabled>
             </snapshots>
-        </repository>
-    </repositories>
+            <id>bintray-central</id>
+            <name>bintray</name>
+            <url>https://jcenter.bintray.com</url>
+        </repository>    </repositories>
 
     <distributionManagement>
         <repository>
