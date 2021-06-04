@@ -33,7 +33,7 @@
         <commons.lang3>3.9</commons.lang3>
         <commons.fileupload>1.3.3</commons.fileupload>
         <commons.io>2.4</commons.io>
-        <apache.http-client>4.5.5</apache.http-client>
+        <apache.http-client>4.5.13</apache.http-client>
         <apache.fluent-hc>4.5.5</apache.fluent-hc>
         <junit>4.12</junit>
         <mockito.core>2.18.3</mockito.core>
