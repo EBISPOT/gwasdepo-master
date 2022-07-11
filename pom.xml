@@ -22,7 +22,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
 
-        <spring.boot.version>2.1.9.RELEASE</spring.boot.version>
+        <spring.boot.version>2.2.11.RELEASE</spring.boot.version>
         <gdapp-backend.version>0.0.1-SNAPSHOT</gdapp-backend.version>
         <spring.data.rest.hal>3.1.9.RELEASE</spring.data.rest.hal>
         <joda.time>2.9.7</joda.time>
