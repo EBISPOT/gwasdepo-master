@@ -6,7 +6,7 @@
 
     <groupId>uk.ac.ebi.spot.gwas</groupId>
     <artifactId>gwasdepo-master</artifactId>
-    <version>1.0.6</version>
+    <version>1.0.7</version>
     <packaging>pom</packaging>
 
     <name>GWAS Deposition App Master POM</name>
@@ -53,8 +53,6 @@
         <model.mapper.version>1.0.0</model.mapper.version>
         <xlsx-streamer.version>2.1.0</xlsx-streamer.version>
         <kafka.clients.version>1.1.0</kafka.clients.version>
-<!--        This is to indicate that the parent will be published to Central Maven Repo, must be set in dependencies (commons etc.) and unset in the rest (deposition etc.) -->
-        <release.artifact>true</release.artifact>
     </properties>
 
     <licenses>
@@ -147,6 +145,7 @@
             <id>release-profile</id>
             <activation>
                 <property>
+                    <!-- This is to indicate that the parent will be published to Central Maven Repo, must be set as -Drelease.artifact=true in dependencies (commons etc.) and unset in the rest (deposition etc.) -->
                     <name>release.artifact</name>
                     <value>true</value>
                 </property>
